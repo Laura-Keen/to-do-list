@@ -8,10 +8,15 @@ How to build this app!
     touch index.html styles.css app.js
 
 #### Step 2:
+  In `index.html`, hold `shift` + `1` and press `tab` to generate some basic html
 
 #### Step 3:
+  Rename the document title to `To Do List` in the `<title>` tags
 
 #### Step 4:
+  In the command line: 
+  
+    `open index.html`
 
 #### Step 5:
 
