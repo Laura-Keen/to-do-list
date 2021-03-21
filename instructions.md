@@ -46,32 +46,32 @@ How to build this app!
   - Select the first option
   - Go to the CSS or styling tab
   - Copy the first link using the **Copy Link Tag** option
-  - Paste it above the style sheet link in `index.html`
+  - Paste it above the `style sheet` link in `index.html`
 
   > Font awesome has a library of icons and having the link in html means that you can just add icon tags and they will automatically turn into icons from the font awesome website
 
 #### Step 9:
   In the body tag of the `index.html` document:
 
-  - Add a `<header></header>` section
-  - Add a `<h1></h1>` section with the title of your app
+  - Add a `<header>` section
+  - Add a `<h1>` section with the title of your app
 
 #### Step 10:
-  In the body tag of the `index.html` document, add a `<form>` where the user can input their to do. This should have an input type of `text` and a class called `todo-input`.
+  In the body tag of the `index.html` document, add a `form` where the user can input their to do. This should have an input type of `text` and a class called `todo-input`.
 
-  Underneath the form, add a button with a type of `submit` and a class of `todo-button`.
+  Underneath the `form`, add a `button` with a type of `submit` and a class of `todo-button`.
 
 #### Step 11:
-  Within the `<button></button>` tags, we can add a plus icon:
-  - add `<i></i>` tags and give a class of `fas fa-plus-square`
+  Within the `<button>` tags, we can add a plus icon:
+  - add `<i>` tags and give a class of `fas fa-plus-square`
 
 #### Step 12:
   Now, you need somewhere to store all of the to-do's:
-  - Under your form, add a `<div></div>` section
+  - Under your form, add a `<div>` section
   - Give this `<div>` section a class of `todo-container`
-  - Within the `<div>` section, add an `<ul></ul>` with a class of `todo-list`
+  - Within the `<div>` section, add an `<ul>` with a class of `todo-list`
 
 #### Step 13:
-  Within the `<ul>` section, add another `<div></div>` container with a class of todo:
-  - Inside this `<div>` container, add an `<li></li>` tag
-  - Inside the same `<div>` container, underneath the `<li>` tags, add some `<button></button>` tags.
+  Within the `<ul>` section, add another `<div>` container with a class of todo:
+  - Inside this `<div>` container, add an `<li>` tag
+  - Inside the same `<div>` container, underneath the `<li>` tags, add some `<button>` tags.
