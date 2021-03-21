@@ -62,5 +62,16 @@ How to build this app!
   Underneath the form, add a button with a type of `submit` and a class of `todo-button`.
 
 #### Step 11:
-  Within the <button></button> tags, we can add a plus icon:
+  Within the `<button></button>` tags, we can add a plus icon:
   - add `<i></i>` tags and give a class of `fas fa-plus-square`
+
+#### Step 12:
+  Now, you need somewhere to store all of the to-do's:
+  - Under your form, add a `<div></div>` section
+  - Give this `<div>` section a class of `todo-container`
+  - Within the `<div>` section, add an `<ul></ul>` with a class of `todo-list`
+
+#### Step 13:
+  Within the `<ul>` section, add another `<div></div>` container with a class of todo:
+  - Inside this `<div>` container, add an `<li></li>` tag
+  - Inside the same `<div>` container, underneath the `<li>` tags, add some `<button></button>` tags.
