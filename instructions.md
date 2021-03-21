@@ -41,6 +41,12 @@ How to build this app!
   > This should be in the `<body>` section.
 
 #### Step 8:
+  In your browser, search **Font Awesome cdn.js** (cdn helps to directly link it to your website)
+  - Select the first option
+  - Go to the CSS or styling tab
+  - Copy the first link using the **Copy Link Tag** option
+  - Paste it above the style sheet link in `index.html`
+
 
 #### Step 9:
 
