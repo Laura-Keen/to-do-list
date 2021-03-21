@@ -12,4 +12,4 @@ This project is a simple to do list app using vanilla JavaScript
 
 ## Build Your Own
 
-If you would like to build your own to do list, please refer to the instructions.md document
+If you would like to build your own version of this project, you can set it up by referring to the instructions.md document
