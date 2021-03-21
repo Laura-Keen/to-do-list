@@ -42,12 +42,25 @@ How to build this app!
 
 #### Step 8:
   In your browser, search **Font Awesome cdn.js** (cdn helps to directly link it to your website)
+
   - Select the first option
   - Go to the CSS or styling tab
   - Copy the first link using the **Copy Link Tag** option
   - Paste it above the style sheet link in `index.html`
 
+  > Font awesome has a library of icons and having the link in html means that you can just add icon tags and they will automatically turn into icons from the font awesome website
 
 #### Step 9:
+  In the body tag of the `index.html` document:
+
+  - Add a `<header></header>` section
+  - Add a `<h1></h1>` section with the title of your app
 
 #### Step 10:
+  In the body tag of the `index.html` document, add a `<form>` where the user can input their to do. This should have an input type of `text` and a class called `todo-input`.
+
+  Underneath the form, add a button with a type of `submit` and a class of `todo-button`.
+
+#### Step 11:
+  Within the <button></button> tags, we can add a plus icon:
+  - add `<i></i>` tags and give a class of `fas fa-plus-square`
