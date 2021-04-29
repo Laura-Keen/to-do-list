@@ -7,4 +7,16 @@ const todoList = document.querySelector('.todo-list');
 todoButtton.addEventListener('click', addTodo);
 
 // Functions
-function addTodo()
+
+function addTodo(event) {
+  event.preventDefault(); // Prevents form from submitting
+
+  // Todo div
+  const todoDiv = document.createElement('div');
+  todoDiv.classList.add('todo');
+
+  // Create li
+  const newTodo = document.createElement('li');
+  newTodo.innerText = 'hey';
+  newTodo.classList.add('todo-item');
+}
